@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Daffa Syahputra | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">
+                <h2>DAFFA<span>.</span></h2>
+            </div>
+            <div class="nav-links">
+                <a href="WelcomePage.html" class="active">HOME</a>
+                <a href="AboutMePage.html">ABOUT</a>
+                <a href="ExperiencePage.html">EXPERIENCE</a>
+                <a href="ResumePage.html">RESUME</a>
+                <a href="ContactMePage.html">CONTACT</a>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <div class="left-section">
+                    <div class="greeting">
+                        <span class="tag">A DIGITAL BUSINESS STUDENT</span>
+                        <h1>Hi There! I'm <span>Muhammad Daffa Syahputra</span></h1>
+                        <p class="subtitle">Student Of Surabaya State University / Digital Business</p>
+                        <p class="description">"Enthusiastic about learning and creating, I aim to combine knowledge, skills, and creativity to produce solutions that matter. Let's embark on a journey of innovation together."</p>
+                        
+                        <div class="cta-section">
+                            <a href="AboutMePage.html" class="btn primary-btn">More About Me</a>
+                            <a href="ContactMePage.html" class="btn secondary-btn">Get In Touch</a>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/daffasyahputra07" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/share/19cQxZ2cDN/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhammad-daffa-syahputra-51488334b" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="mailto:muhammaddaffa.jobs@gmail.com">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right-section">
+                    <div class="image-container">
+                        <div class="shape-bg"></div>
+                        <img src="Assets/DaffaFoto.png" alt="Muhammad Daffa Syahputra" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

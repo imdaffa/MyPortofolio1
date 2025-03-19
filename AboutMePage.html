@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Daffa Syahputra | About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">
+                <h2>DAFFA<span>.</span></h2>
+            </div>
+            <div class="nav-links">
+                <a href="WelcomePage.html">HOME</a>
+                <a href="AboutMePage.html" class="active">ABOUT</a>
+                <a href="ExperiencePage.html">EXPERIENCE</a>
+                <a href="ResumePage.html">RESUME</a>
+                <a href="ContactMePage.html">CONTACT</a>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- About Section -->
+        <div class="about-section">
+            <div class="section-title">
+                <h1>About <span>Me</span></h1>
+                <div class="underline"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Assets/batudaffa.jpg" alt="Muhammad Daffa Syahputra">
+                    <div class="image-shape"></div>
+                </div>
+                <div class="about-text">
+                    <div class="about-heading">
+                        <span class="tag">WHO AM I</span>
+                        <h2>Digital Business Enthusiast with a Passion for Design</h2>
+                    </div>
+                    <p>
+                        Hello, I am <strong>Muhammad Daffa Syahputra</strong>, a Digital Business undergraduate with a strong passion for design and digital development. I have skills in graphic design, such as creating visually appealing content for branding and presentations, as well as public speaking abilities that enable me to communicate ideas clearly and effectively.
+                    </p>
+                    <p>
+                        In addition, I possess foundational programming knowledge in HTML, CSS, JavaScript, and PHP, along with database management using MySQL. With these skills, I can develop simple websites, design engaging user interfaces, and manage data efficiently.
+                    </p>
+                    <p>
+                        Whether it's creating stunning visuals, capturing life's moments through photography, or crafting innovative designs, I strive to bring creativity and precision to everything I do. Let's create something amazing together!
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h2>Soft <span>Skills</span></h2>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Public Speaking</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Team Collaboration</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Problem Solving</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">English Proficiency</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-column">
+                    <h2>Hard <span>Skills</span></h2>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Photography</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Graphic Design</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Video Editing</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Web Design</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Fundamental Programming</span>
+                                <span class="skill-percentage">10%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 10%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Animate skills on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const skillItems = document.querySelectorAll('.skill-item');
+            
+            // Function to handle animation
+            function animateSkills() {
+                skillItems.forEach(item => {
+                    const progressBar = item.querySelector('.progress');
+                    const targetWidth = progressBar.style.width;
+                    
+                    // Reset width to 0 initially
+                    progressBar.style.width = '0';
+                    
+                    // Animate to target width
+                    setTimeout(() => {
+                        progressBar.style.transition = 'width 1s ease-in-out';
+                        progressBar.style.width = targetWidth;
+                    }, 300);
+                });
+            }
+            
+            // Trigger animation on page load
+            animateSkills();
+        });
+    </script>
+</body>
+</html>
